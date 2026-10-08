@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Status:** problem brief. The question and the measurement are written here. An implementation is not in this repository yet.
+**Status:** runnable on designed examples. Not a clinical system, a LIMS, or a trained model.
 
 </div>
 
@@ -18,7 +18,7 @@
   <img src="docs/demo.gif" alt="editdrift" width="880"/>
 </p>
 
-The clip plays on this page. [Full video](docs/demo.mp4).
+The clip is `python -m editdrift`, the program in this repository. [Full video](docs/demo.mp4).
 
 ## The problem
 
@@ -43,7 +43,17 @@ An alert with no baseline window is a mood. A baseline with no lot or passage is
 
 ## What this repository is
 
-The observability question for edited lines, beside the lineage question in [editledger](https://github.com/TechieGoku2623/editledger) and the methods-audit work in [methods-audit](https://github.com/TechieGoku2623/methods-audit). It does not ship a model, and it does not claim a biological result.
+`editdrift` compares a new observation to the accepted window you pass in. It does not claim a biological result. Lineage for the same line is in [editledger](https://github.com/TechieGoku2623/editledger).
+
+## Run
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+python -m editdrift
+python -m unittest discover -s tests -v
+```
 
 ## Author
 
