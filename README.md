@@ -12,6 +12,14 @@
 
 ---
 
+## Watch
+
+<p align="center">
+  <img src="docs/demo.gif" alt="editdrift" width="880"/>
+</p>
+
+The clip plays on this page. [Full video](docs/demo.mp4).
+
 ## The problem
 
 An edited line is not a stable reagent. Passage number, guide batch, reagent lot, confluence, and who thawed the vial all move, and the paper still cites the line as if it were the same object as last quarter.
