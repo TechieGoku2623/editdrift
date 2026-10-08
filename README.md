@@ -15,10 +15,10 @@
 ## Watch
 
 <p align="center">
-  <img src="docs/demo.gif" alt="editdrift" width="880"/>
+  <img src="docs/demo.gif" alt="editdrift: passage 18 growth 1.55 leaves the accepted window and lot G4 raises an alert" width="880"/>
 </p>
 
-The clip is `python -m editdrift`, the program in this repository. [Full video](docs/demo.mp4).
+The clip is the working screen: passage 18 leaves the accepted growth window and the lot changes. [Open the demo](docs/demo.html). [Full video](docs/demo.mp4).
 
 ## The problem
 
